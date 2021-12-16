@@ -1,0 +1,15 @@
+<div class="prod-container">
+    {{#each carritos}}
+    <div class="prod-card">
+            <p>ID:{{this.id}} </p>
+    </div>
+    {{/each}}
+    <div>
+        {{#each events}}
+            <p>Productos:{{this.id}}</p>
+            <p>Talle:{{this.title}}</p>
+            <p>Precio:{{this.price}}</p>
+            <p>Tamaño:{{this.size}}</p>
+        {{/each}}      
+    </div>
+</div>

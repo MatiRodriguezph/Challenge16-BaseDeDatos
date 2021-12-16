@@ -1,0 +1,11 @@
+<a href='/'> HOME </a>
+<div class="prod-container">
+    {{#each eventos}}
+    <div class="card">
+            <p>Nombre:{{this.title}}</p>
+            <p>Talle:{{this.talle}}</p>
+            <p>Precio:{{this.price}}</p>
+            <p>Tamaño:{{this.size}}</p>      
+    </div>
+    {{/each}}
+</div>
